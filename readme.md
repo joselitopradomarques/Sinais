@@ -1,0 +1,1 @@
+Pasta para os arquivos computacionais da disciplina Sinais e Sistemas
