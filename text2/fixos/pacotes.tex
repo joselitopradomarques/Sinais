@@ -1,0 +1,28 @@
+\usepackage{cite}
+\ifCLASSINFOpdf
+   \usepackage[pdftex]{graphicx}
+   \graphicspath{{figs/}}
+   \DeclareGraphicsExtensions{.pdf,.jpeg,.png}
+\else
+   \usepackage[dvips]{graphicx}
+   \graphicspath{{../figs/}}
+   \DeclareGraphicsExtensions{.eps}
+\fi
+\usepackage{booktabs}
+\usepackage[cmex10]{amsmath}
+\interdisplaylinepenalty=2500
+\usepackage{amsthm}
+\newtheorem{definition}{Definition}
+\usepackage{algorithmic}
+\usepackage{array}
+\usepackage{subcaption}
+\usepackage{url}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[brazilian]{babel}
+\usepackage[justification=centering]{caption}
+
+% corrija hifenação aqui
+\hyphenation{op-tical net-works semi-conduc-tor}
+\input{editaveis/informacoes}
+
