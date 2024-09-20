@@ -1,6 +1,10 @@
 \section{Objetivo}
-O propósito deste relatório é estudar e implementar a modulação por frequência - \textit{Frequency Modulation} (FM) utilizando as técnicas de modulação e demodulação FM no \textit{software} GNU Radio.
-\par
-A modulação será realizada usando um Oscilador Controlado por Voltagem \textit{VCO}), empregará um conversor FM-AM e um bloco de detecção de envelope para recuperar o sinal original.
-\par
-Espera-se obter os seguintes sinais no tempo: sinal original, sinal modulado, sinal convertido de FM para AM e o sinal demodulado. No domínio da frequência, serão analisados os espectros dos sinais da conversão FM-AM, original e demodulado.
+\begin{enumerate}
+    \item Carregar um sinal de ECG em formato *.mat no Octave e plotar o sinal original.
+    \item Adicionar ruído branco aditivo gaussiano ao sinal e plotar o resultado.
+    \item Aplicar filtros de média móvel de duas e cinco amostras ao sinal ruidoso, e plotar os sinais resultantes.
+    \item Comparar os resultados dos filtros e discutir as diferenças.
+    \item Calcular e plotar a Transformada Discreta de Fourier de um sinal dado, e analisar sinais subamostrados.
+    \item Realizar a convolução de sinais e comparar os resultados.
+    \item Aplicar convolução a um sinal, analisar o efeito no domínio da frequência e discutir o fenômeno observado.
+\end{enumerate}

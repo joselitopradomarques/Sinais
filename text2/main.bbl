@@ -21,17 +21,14 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
-\bibitem{proakis}
-J.~G. Proakis and M.~Salehi, \emph{Communication Systems Engineering},
-  2nd~ed.\hskip 1em plus 0.5em minus 0.4em\relax Upper Saddle River, NJ, USA:
-  Prentice-Hall, August 2001.
-
-\bibitem{lathi}
+\bibitem{Goldberger2000}
 \BIBentryALTinterwordspacing
-B.~Lathi and Z.~Ding, \emph{Modern Digital and Analog Communication Systems},
-  ser. Oxford series in electrical and computer engineering.\hskip 1em plus
-  0.5em minus 0.4em\relax Oxford University Press, 2019. [Online]. Available:
-  \url{https://books.google.com.br/books?id=KZpnswEACAAJ}
+A.~Goldberger, L.~Amaral, L.~Glass, J.~Hausdorff, P.~C. Ivanov, R.~Mark, J.~E.
+  Mietus, G.~B. Moody, C.~K. Peng, and H.~E. Stanley, ``Physiobank,
+  physiotoolkit, and physionet: Components of a new research resource for
+  complex physiologic signals,'' \emph{Circulation}, vol. 101, no.~23, pp.
+  e215--e220, 2000, online. [Online]. Available:
+  \url{http://www.physionet.org/cgi-bin/atm/ATM?database=nstdb&tool=plot_waveforms}
 \BIBentrySTDinterwordspacing
 
 \end{thebibliography}
